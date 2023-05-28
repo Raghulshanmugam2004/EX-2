@@ -1,15 +1,14 @@
-# Experiment : 2
-# DATE : 16-03-2023
+# EX-2 IMPLEMENTATION OF STOP AND WAIT PROTOCOL
+# DATE:16-03-2023
 # AIM :
-To write a python program to perform stop and wait protocol,
+To write a python program to perform stop and wait protocol.
 
 # ALGORITHM :
-  1.Start the program.
-  2.Get the frame size from the user.
-  3.To create the frame based on the user request.
-  4.To send frames to server from the client side.
-  5.If your frames reach the server it will send ACK signal to client otherwise it will sendNACK signal to client.
-  6.Stop the program
+ 1.Start the program.
+ 2.Get the frame size from the user
+ 3.To create the frame based on the user request.
+ 4.To send frames to server from the client side.
+ 5.If your frames reach the server it will send ACK signal to client otherwise it will sendNACK signal to client. Stop the program
 # PROGRAM :
 # CLIENT :
 ```
@@ -30,25 +29,19 @@ while True:
     else:
         c.close()
         break
-   ```
+ ```
 # SERVER :
 ```
-# Developed By : RAGHUL.S
-# Register Number : 212222040128
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
 while True:
     print(s.recv(1024).decode())
     s.send("Acknowledgement Recived".encode())
- ```
-# SERVER OUTPUT:
-
-# CLIENT OUTPUT:
-
-
-# RESULT:
+```
+# OUTPUT :
+# CLIENT :
+# SERVER :
+# RESULT :
 Thus, python program to perform stop and wait protocol was successfully executed.
-
-
 
