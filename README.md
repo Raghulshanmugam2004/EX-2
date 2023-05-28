@@ -47,7 +47,8 @@ while True:
 ```
 # OUTPUT :
 # CLIENT :
-![image](https://github.com/Raghulshanmugam2004/EX-2/assets/119561118/593e1dfe-d03b-4d18-887c-ee22ebcc6927)
+![GIT](https://github.com/Raghulshanmugam2004/EX-2/assets/119561118/3380e94c-a618-493b-b664-80c3c5431ca8)
+
 
 # SERVER :
 ![git 1 1](https://github.com/Raghulshanmugam2004/EX-2/assets/119561118/51c66a0f-e4f4-4349-ba40-cee0cf4d202c)
