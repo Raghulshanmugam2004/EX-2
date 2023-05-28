@@ -43,9 +43,10 @@ while True:
     print(s.recv(1024).decode())
     s.send("Acknowledgement Recived".encode())
  ```
-# OUTPUT :
-# CLIENT :
-# SERVER
+# SERVER OUTPUT:
+
+# CLIENT OUTPUT:
+
 
 # RESULT:
 Thus, python program to perform stop and wait protocol was successfully executed.
